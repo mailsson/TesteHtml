@@ -21,7 +21,7 @@ test('responds to requests', (t) => {
       // Successful response
       t.equal(response.statusCode, 200);
       // Assert content checks
-      t.notEqual(response.body.indexOf("<title>Site de Noticias Primeiro Deploy</title>"), -1);
+      t.notEqual(response.body.indexOf("<title>Teste Math Deploy</title>"), -1);
       t.notEqual(response.body.indexOf("Getting Started first Deploy with Node.js"), -1);
     })();
   });
